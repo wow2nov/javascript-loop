@@ -7,7 +7,7 @@ for(let i=0; i < restaurants.length; i++){
    newRestaurants.push(restaurants[i]);
    //นำเอาที่วนจากบบรทัดบนมาpush(ใส่)ใน newRestaurants
     
-   console.log(`Restaurant Name: ${restaurants[i]}`); 
+   console.log(`Restaurant Name: ${newRestaurants[i]}`); 
    //ให้นำ console.log ไปอยู่ในลูปแทนจะทำให้ผลลัพธ์เรียงทุกชื่อ
 };
 
